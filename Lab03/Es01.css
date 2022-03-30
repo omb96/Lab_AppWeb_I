@@ -1,12 +1,43 @@
 body {
-    background-color: brown;
+    background-color: white;
+}
+
+header {
+    background-color: #0d6efd;
 }
 
 #list-tab .active {
-    background-color: lightblue !important;
-    border: lightblue;
+    background-color: #1e58af !important;
+    border:  0;
 }
 
-#list-tab a{
+#col-list{
+    background-color: #f7f7f7;
+}
 
+aside {    
+    min-height:100vh
+}
+
+.favorite {
+    color: red;
+}
+
+.watch-date {
+    text-align: right;
+}
+
+.empty-star:hover {
+    fill: #0e86d4;
+    color: #055c9d;
+}
+
+/* Add task button */
+.fixed-right-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1030;
+    margin: 0 1.5rem 1.5rem 0;
+    border-radius: 50%;
 }
